@@ -1,0 +1,184 @@
+body {
+	font-family: Helvetica, sans-serif;
+	color: #676767;
+	margin: 0;
+}
+
+.header {
+	width: 940px;
+	height: 450px;
+	background-image: url('../images/grinders_header.jpg');
+	margin: 40px auto;
+}
+
+.intro {
+	margin: 70px auto;
+	text-align: center;
+	font-size: 15px;
+	line-height: 1.7;
+}
+
+h1 {
+	font-family: Georgia, serif;
+	font-size: 32px;
+	line-height: 1;
+	color: #261913;
+}
+
+h2 {
+	font-family: Georgia, serif;
+	font-size: 28px;
+	line-height: 1;
+	color: #6D3B1C;
+	text-align: center;
+}
+
+h3 {
+	font-family: Helvetica, sans-serif;
+	font-size: 18px;
+	line-height: 1.5;
+	color: #999999;
+	font-weight: normal;
+	margin: 0;
+	display: inline;
+	float: right;
+	padding-right: 20px;
+	box-sizing: border-box;
+}
+
+h4 {
+	font-family: Georgia, serif;
+	font-size: 20px;
+	line-height: 1;
+	color: #261913;
+	text-transform: capitalize;
+}
+
+p {
+	font-size: 15px;
+}
+.menu {
+	background: #f6f6f6;
+	width: 720px;
+	margin: auto;
+	padding: 70px 70px 0 70px;
+	box-sizing: border-box;
+	overflow: auto;
+}
+.items {
+	width: 580px;
+	margin-bottom: 40px;
+	overflow: auto;
+}
+.menu-left {
+	width: 275px;
+	float: left;
+	line-height: 1.5;
+}
+
+.menu-right {
+	width: 275px;
+	float: right;
+	line-height: 1.5;
+}
+
+ol {
+	list-style: none;
+	padding-left: 0;
+	
+}
+
+ol li {
+	border-bottom: 1px solid #d2d2d2;
+	color: #666666;
+	padding-bottom: 10px;
+	padding-top: 10px;
+}
+
+hr {
+	background-color: #f6f6f6;
+	height: 30px;
+}
+
+.info {
+	width: 580px;
+	margin: 110px auto;
+	box-sizing: border-box;
+	overflow: auto;
+}
+
+.info-left {
+	width: 275px;
+	float: left;
+	line-height: 1.5;
+}
+
+.info-right {
+	background-image: url('../images/coffee.jpg');
+	width: 275px;
+	height: 275px;
+	float: right;
+	line-height: 1.5;
+}
+
+#directions {
+	font-family: Helvetica, sans-serif;
+	font-size: 15px;
+	line-height: 1.5;
+	color: #603F26;
+	border: 3px solid #603F26;
+	padding: 7px 15px 7px 15px;
+}
+
+a {
+	text-decoration: none;
+}
+
+.footer {
+	width: 100%;
+	background: #241915;
+	font-family: Helvetica, sans-serif;
+	font-size: 13px;
+	color: #ffffff;
+	margin: auto;
+	margin-top: 50px;
+	margin-bottom: 0;
+	height: 200px;
+}
+
+.container {
+	margin: 20px auto;
+	padding: 70px;
+	width: 940px;
+	overflow: auto;
+}
+
+.footer-left {
+	width: 275px;
+	float: left;
+	line-height: 1.5;
+	text-transform: capitalize;
+}
+
+.footer-right {
+	float: right;
+	line-height: 1.5;
+	text-align: right;
+	text-transform: capitalize;
+}
+
+@media screen and (min-width: 500px) {
+	/* Target screens >= 740 pixels wide */
+}
+
+@media screen and (min-width: 740px) {
+	/* Target screens >= 740 pixels wide */
+}
+
+@media screen and (min-width: 980px) {
+	/* Target screens >= 740 pixels wide */
+}
+
+@media screen and (min-width: 1220px) {
+	/* Target screens >= 740 pixels wide */
+}
